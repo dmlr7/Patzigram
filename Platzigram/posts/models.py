@@ -2,6 +2,7 @@
 from django.db import models
 #utils
 
+
 class User(models.Model):
     """User Model"""
     email = models.EmailField(unique = True)
@@ -13,3 +14,8 @@ class User(models.Model):
     birthdate = models.DateField(blank = True, null = True)
     created = models.DateTimeField(auto_now_add = True)
     modified = models.DateTimeField(auto_now = True)
+
+    def __str__(self):
+        """Return email."""
+        return self.email
+
