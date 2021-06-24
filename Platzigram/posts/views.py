@@ -2,7 +2,6 @@ from django.http.response import HttpResponse
 from django.shortcuts import render
 
 from datetime import datetime,date
-from posts.models import User
 
 posts = [
     {
@@ -73,8 +72,8 @@ def init_users(request):
         'bio': "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
     ]
-    for user in users:
-        obj = User(**user)
-        #obj.save()
-        print(obj.pk, ':', obj.email)
+    # for user in users:
+    #     obj = User(**user)
+    #     #obj.save()
+    #     print(obj.pk, ':', obj.email)
     return HttpResponse('done')
