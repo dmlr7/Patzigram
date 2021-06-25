@@ -1,4 +1,4 @@
-"""Posts Models"""
+"""Posts Models."""
 #django
 from django.db import models
 from django.contrib.auth.models import User
@@ -6,8 +6,8 @@ from django.contrib.auth.models import User
 
 
 class Post(models.Model):
-    """Post Model
-    """
+    """Post Model."""
+    
     user = models.ForeignKey(User,on_delete=models.CASCADE)
     profile = models.ForeignKey('users.Profile', on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
@@ -17,7 +17,7 @@ class Post(models.Model):
     modified = models.DateTimeField(auto_now=True)
 
     def __str__(self) -> str:
-        """Return title and username
+        """Return title and username.
 
         Returns:
             str: title and username

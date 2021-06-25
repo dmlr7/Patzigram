@@ -2,66 +2,66 @@
     "child": {
         "child1": {
             "directory": "\/home\/dmlr\/platzi\/django\/Platzigram",
-            "height": 300,
+            "height": 403,
             "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
             "readOnly": false,
             "synchronizedInput": true,
             "type": "Terminal",
             "uuid": "87b5a86a-389e-4665-bcc1-342b1d2929e6",
-            "width": 1564
+            "width": 1866
         },
         "child2": {
             "child1": {
-                "directory": "\/home\/dmlr\/platzi\/django",
-                "height": 476,
-                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
-                "readOnly": false,
-                "synchronizedInput": true,
-                "type": "Terminal",
-                "uuid": "fdfc6c94-f075-463f-b69f-485d9b8e08aa",
-                "width": 782
-            },
-            "child2": {
                 "child1": {
                     "directory": "\/home\/dmlr\/platzi\/django",
-                    "height": 476,
+                    "height": 100,
                     "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
                     "readOnly": false,
                     "synchronizedInput": true,
                     "type": "Terminal",
                     "uuid": "b553c99d-05ce-47cc-a18f-19ba10ea9189",
-                    "width": 390
+                    "width": 969
                 },
                 "child2": {
                     "directory": "\/home\/dmlr\/platzi\/django",
-                    "height": 476,
+                    "height": 608,
                     "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
                     "readOnly": false,
                     "synchronizedInput": true,
                     "type": "Terminal",
-                    "uuid": "34303b31-268b-4292-8267-ec97213bb617",
-                    "width": 390
+                    "uuid": "376136fb-3fc4-49fb-bf45-4b234c9ddff8",
+                    "width": 969
                 },
-                "orientation": 0,
-                "position": 24,
-                "ratio": 0.499359795134443007,
+                "orientation": 1,
+                "position": 8,
+                "ratio": 0.141043723554301836,
                 "type": "Paned"
             },
+            "child2": {
+                "directory": "\/home\/dmlr\/platzi\/django",
+                "height": 709,
+                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+                "readOnly": false,
+                "synchronizedInput": true,
+                "type": "Terminal",
+                "uuid": "34303b31-268b-4292-8267-ec97213bb617",
+                "width": 896
+            },
             "orientation": 0,
-            "position": 50,
-            "ratio": 0.5,
+            "position": 51,
+            "ratio": 0.519292604501607746,
             "type": "Paned"
         },
         "orientation": 1,
-        "position": 38,
-        "ratio": 0.386100386100386106,
+        "position": 36,
+        "ratio": 0.362084456424079049,
         "type": "Paned"
     },
-    "height": 777,
+    "height": 1113,
     "name": "${title}",
     "synchronizedInput": false,
     "type": "Session",
     "uuid": "e06b402a-8e7e-45e1-9cf5-56331d423735",
     "version": "1.0",
-    "width": 1564
+    "width": 1866
 }

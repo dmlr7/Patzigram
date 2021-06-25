@@ -1,4 +1,4 @@
-"""Platzigram URL Configuration
+"""Platzigram URL Configuration.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -22,13 +22,17 @@ from django.conf import settings
 
 from Platzigram import views as local_views
 from posts import views as post_views
+from users import views as user_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello-world', local_views.hello_world),
-    path('sorted/', local_views.sorted_integers),
-    path('hi/<str:name>/<int:age>/', local_views.say_hi),
-    path('posts/', post_views.list_posts),
+    path('hello-world', local_views.hello_world, name='hello_wolrd'),
+    path('sorted/', local_views.sorted_integers,name='sort'),
+    path('hi/<str:name>/<int:age>/', local_views.say_hi, name='hi'),
+    path('posts/', post_views.list_posts, name='feed'),
+    path('users/login', user_views.login_view, name='login'),
+    path('users/logout', user_views.logout_view, name='logout'),
+    path('users/signup', user_views.signup_view, name='signup'),
     
 ] + static(
     settings.MEDIA_URL,
