@@ -63,6 +63,20 @@ def signup_view(request):
     return render(request, 'users/signup.html')
 
 
+def update_profile_view(request):
+    """L."""
+    profile = request.user.profile
+
+    return render(
+        request=request,
+        template_name='users/update_profile.html',
+        context={
+            'profile': profile,
+            'user': request.user,
+            'form': form
+        }
+    )
+
 
 @login_required
 def logout_view(request):
