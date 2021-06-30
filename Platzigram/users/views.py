@@ -72,7 +72,7 @@ def update_profile_view(request):
             profile.picture = data['picture']
             profile.save()
 
-            return redirect('update_profile')
+            return redirect('users:update_profile')
 
     else:
         form = ProfileForm()
